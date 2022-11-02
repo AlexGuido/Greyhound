@@ -1,5 +1,4 @@
-#tuplas
-# no se pueden hacer cambios en ellas
+#tuplas. No se pueden hacer cambios en ellas
 
 numbers = (1,2,3,5)
 strings = ('nico', 'mateo', 'sofi','nico','nico')
