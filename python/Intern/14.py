@@ -1,4 +1,4 @@
-# map co diccionarios 
+# map con diccionarios 
 
 items = [
     {
@@ -23,4 +23,4 @@ def addTaxes(item):
     return item
 
 newItems = list(map(addTaxes,items))
-print(newItems)
+print(newItems) 
