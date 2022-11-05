@@ -5,7 +5,7 @@ def readCSV(path):
         reader = csv.reader(csvfile, delimiter=',')
         header = next(reader)
         data = []
-        print(header)
+        #print(header)
         for row in reader:
             iterable = zip(header,row)
             countryDict = {key: value for key, value in iterable}     
