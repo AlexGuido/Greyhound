@@ -15,5 +15,5 @@ def generatePieChart(labels,values):
 if __name__ == '__main__':
     labels = ['a','b','c']
     values = [10,40,800]
-    #generateBarChart(labels,values)
-    generatePieChart(labels, values)
+    generateBarChart(labels,values)
+    #generatePieChart(labels, values)
